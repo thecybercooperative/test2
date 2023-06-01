@@ -4,7 +4,7 @@ const CONFIG = {
   name: 'The Cyber Cooperative',
 
   origin: 'https://thecybercooperative.github.io',
-  basePathname: '/astrowind',
+  basePathname: '/test2',
   trailingSlash: false,
 
   title: 'The Cyber Cooperative - Level up in your cybersecurity game',
