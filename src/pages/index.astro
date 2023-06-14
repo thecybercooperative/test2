@@ -44,213 +44,49 @@ const meta = {
   <Note />
 
   <!-- Features Widget *************** -->
+  <!-- Content Widget **************** -->
+  <!-- Features2 Widget ************** -->
 
-  <Features
+  <Features2
     highlight="About Us"
     title="What we've got going on:"
     subtitle="We've got a lot going on here at the Cyber Cooperative. All good things, we swear."
     items={[
-      [
-        {
-          title: 'CTF',
+      {
+         title: 'CTF',
           description:
             'Amazing CTF challenges provided weekly, written by the amazing team at CTFd.io',
-          icon: 'tabler:brand-tailwind',
-        },
-        {
-          title: 'Events',
-          description:
-            'Educational events with cybersecurity experts and speakers who share their knowledge on a wide range of topics, from general career advice Q&A to in-depth OSINT tutorials',
-        },
-        {
-          title: 'Rewards',
-          description:
-            'Use points from CTF challenge and community involvement to earn real-life prizes and rewards',
-          icon: 'tabler:list-check',
-        },
-      ],
-      [
-        {
-          title: 'Community',
-          description:
-            'A community of over 1000 cybersecurity experts, professionals, and students to connect with',
-          icon: 'tabler:rocket',
-        },
-        {
-          title: 'Minecraft',
-          description:
-            'A dedicated Minecraft server where you can learn the basics of different cybersecurity concepts in-game and build out a world with friends at the same time',
-          icon: 'tabler:arrows-right-left',
-        },
-        {
-          title: 'A place to be',
-          description:
-            'Above all else, since it’s a Discord server, it’s just a place to be if you feel like being somewhere - feel free to just chat casually, we’re just chillin ya know?',
-          icon: 'tabler:bulb',
-        },
-      ],
-    ]}
-  />
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    highlight="Inside template"
-    title="And what's inside? ..."
-    items={[
-      {
-        title: 'Per ei quaeque sensibus',
-        description:
-          'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
-      },
-      {
-        title: 'Cu imperdiet posidonium sed',
-        description:
-          'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
-      },
-      {
-        title: 'Nulla omittam sadipscing mel ne',
-        description:
-          'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
-      },
-    ]}
-    image={{
-      src: import('~/assets/images/caos.jpg'),
-      alt: 'Colorful Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Ad vix debet docendi</h3>
-      Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod
-      tacimates.
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: 'Per ei quaeque sensibus',
-      },
-      {
-        title: 'Cu imperdiet posidonium sed',
-      },
-      {
-        title: 'Nulla omittam sadipscing mel ne',
-      },
-      {
-        title: 'Per ei quaeque sensibus',
-      },
-      {
-        title: 'Cu imperdiet posidonium sed',
-      },
-      {
-        title: 'Nulla omittam sadipscing mel ne',
-      },
-    ]}
-    image={{
-      src: import('~/assets/images/vintage.jpg'),
-      alt: 'Vintage Image',
-    }}
-  />
-
-  <!-- Steps Widget ****************** -->
-
-  <Steps
-    title="Get your dream website up and running in no time with AstroWind."
-    items={[
-      {
-        title: 'Step 1: <span class="font-medium">Download</span>',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula.',
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Step 2: <span class="font-medium">Add content</em>',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
-        icon: 'tabler:paint',
-      },
-      {
-        title: 'Ready!',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
-      src: import('~/assets/images/creativity.jpg'),
-      alt: 'Steps image',
-    }}
-  />
-
-  <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    highlight="Components"
-    items={[
-      {
-        title: 'Headers',
-        description:
-          'In general, Headers contain information that makes it easier for visitors to interact with the website.',
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Heros',
-        description:
-          'If you want your website to get more than its fair share of visitors, the Hero section needs to be stellar.',
+        title: 'Events',
+          description:
+            'Educational events with cybersecurity experts and speakers who share their knowledge on a wide range of topics, from general career advice Q&A to in-depth OSINT tutorials',
         icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'Features',
-        description:
-          'Display your product in action and how the Features actually create a solution for your target customer.',
+         title: 'Rewards',
+          description:
+            'Use points from CTF challenge and community involvement to earn real-life prizes and rewards',
         icon: 'flat-color-icons:todo-list',
       },
       {
-        title: 'Content',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:document',
+        title: 'Community',
+          description:
+            'A community of over 1000 cybersecurity experts, professionals, and students to connect with',
+        icon: 'tabler:rocket',
       },
       {
-        title: 'Call-to-Action',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+         title: 'Minecraft',
+          description:
+            'A dedicated Minecraft server where you can learn the basics of different cybersecurity concepts in-game and build out a world with friends at the same time',
         icon: 'flat-color-icons:advertising',
       },
       {
-        title: 'Pricing',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+         title: 'A place to be',
+          description:
+            'Above all else, since it’s a Discord server, it’s just a place to be if you feel like being somewhere - feel free to just chat casually, we’re just chillin ya know?',
         icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'icon-park:page-template',
       },
     ]}
   />
@@ -258,10 +94,8 @@ const meta = {
   <!-- HighlightedPosts Widget ******* -->
 
   <LatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
+    title="Check out our educational blog:"
+    information={`This blog covers a wide variety of cybersecurity topics, written by experts.
                 `}
     postIds={[
       'get-started-website-with-astro-tailwind-css.md',
@@ -275,41 +109,24 @@ const meta = {
 
   <FAQs
     title="Frequently Asked Questions"
-    subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
+    subtitle="Questions most commonly asked"
     highlight="FAQs"
     items={[
       [
         {
-          question: 'What do I need to start?',
+          question: 'How do I join?',
           answer:
-            'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+            'Either click our direct link here or enter the tail end into your Discord client like so: (image of putting it into Discord client)',
         },
         {
-          question: 'How to install the Astro + Tailwind CSS template?',
+          question: 'Who is in charge of this?',
           answer:
-            "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.",
+            "Currently, the Cyber Cooperative is sponsored by Tenable, but as we grow as a community we are open to having other organizations and individuals to join our team as well to help the Cooperative be at its best 💪",
         },
         {
-          question: "What's something that you don't understand?",
+          question: "What's this about? What's the point of The Cyber Cooperative?",
           answer:
-            "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-        },
-      ],
-      [
-        {
-          question: "What's an example of when you changed your mind?",
-          answer:
-            "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-        },
-        {
-          question: 'What is something that you would like to try again?',
-          answer:
-            "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-        },
-        {
-          question: 'If you could only ask one question to each person you meet, what would that question be?',
-          answer:
-            "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+            "In short, the goal of The Cyber Cooperative is to help you progress in your knowledge of cybersecurity/your cybersecurity career. Whether you're a cybersecurity professional, a student, or just someone interested in learning more about cybersecurity - The Cyber Cooperative is a place for you to connect with others in a supportive space for learning, networking, and advancing your knowledge in the cybersecurity field with others who share your passion for cybersecurity. What we aim to provide alongside that is a variety of educational content and resources, events, and games to help you grow in your skills - such as talks from cybersecurity experts and Capture the Flag competitions and workshops.",
         },
       ],
     ]}
@@ -319,10 +136,9 @@ const meta = {
 
   <Stats
     items={[
-      { name: 'Downloads', value: '132K' },
-      { name: 'Stars', value: '24.8K' },
-      { name: 'Forks', value: '10.3K' },
-      { name: 'Users', value: '48.4K' },
+      { name: 'Members', value: '1.2K' },
+      { name: 'Members Online', value: '600' },
+      { name: 'CTF challenge week count', value: '12' },
     ]}
   />
 
@@ -330,18 +146,17 @@ const meta = {
 
   <CallToAction
     callToAction={{
-      text: 'Get template',
-      href: 'https://github.com/onwidget/astrowind',
+      text: 'Join the Cyber Cooperative',
+      href: 'https://discord.gg/9yPVMVDwgV',
       icon: 'tabler:download',
     }}
   >
     <Fragment slot="title">
-      Astro + <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Join us today! <br class="block sm:hidden" /><span class="sm:whitespace-nowrap"></span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+     Don't wait! Join us now to see what we've got going on:
     </Fragment>
   </CallToAction>
 </Layout>
