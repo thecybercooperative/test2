@@ -3,7 +3,7 @@ import defaultImage from './assets/images/default.png';
 const CONFIG = {
   name: 'The Cyber Cooperative',
 
-  origin: 'https://thecybercooperative.github.io',
+  origin: 'https://thecybercooperative.org',
   basePathname: '/test2',
   trailingSlash: false,
 
