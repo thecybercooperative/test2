@@ -1,4 +1,4 @@
-import defaultImage from './assets/images/default.png';
+import defaultImage from './assets/images/TCC-Banner_option1_logo.png';
 
 const CONFIG = {
   name: 'The Cyber Cooperative',
